@@ -17,3 +17,11 @@
 
     <button type="submit">Add Burger</button>
 </form>
+
+<ul>
+    {{#each burgers}}
+        {{#if devoured}}
+            <p>{{burger_name}}</p>
+        {{/if}}
+    {{/each}}
+</ul>
