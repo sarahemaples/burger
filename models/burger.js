@@ -16,6 +16,6 @@ var burger = {
             cb(res);
         });
     }
-}
+};
 // export all db functions for the controller (burger_controller.js)
 module.exports = burger;
