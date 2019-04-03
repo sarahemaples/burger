@@ -1,3 +1,19 @@
 body {
     background-color: khaki;
 }
+
+.burgers-list {
+    width: fit-content;
+    border: solid, black;
+    border-radius: 0.1;
+    display: inline-block;
+}
+
+#devoured-items {
+    float: right;
+}
+
+.burger-form {
+    width: fit-content;
+    margin: auto
+}
